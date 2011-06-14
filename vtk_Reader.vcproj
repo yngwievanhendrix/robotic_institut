@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9,00"
+	Name="vtk_Reader"
+	ProjectGUID="{DEA422FE-2F1B-3685-A8A3-C462E5DDCC29}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="debug\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\Qt\4.7.0\include\QtCore&quot;,&quot;..\..\..\..\Qt\4.7.0\include\QtGui&quot;,&quot;..\..\..\..\Qt\4.7.0\include&quot;,&quot;.&quot;,&quot;..\..\..\..\Programme\VTK\include\vtk-5.6&quot;,&quot;..\..\..\..\Qt\4.7.0\include\ActiveQt&quot;,&quot;debug&quot;,&quot;.&quot;,..\..\..\..\Qt\4.7.0\mkspecs\win32-msvc2008"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				AssemblerListingLocation="debug\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="debug\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Qt\4.7.0\lib\qtmaind.lib C:\Programme\VTK\lib\vtk-5.6\vtkCommon.lib C:\Programme\VTK\lib\vtk-5.6\vtksys.lib C:\Programme\VTK\lib\vtk-5.6\QVTK.lib C:\Programme\VTK\lib\vtk-5.6\vtkQtChart.lib C:\Programme\VTK\lib\vtk-5.6\vtkViews.lib C:\Programme\VTK\lib\vtk-5.6\vtkWidgets.lib C:\Programme\VTK\lib\vtk-5.6\vtkInfovis.lib C:\Programme\VTK\lib\vtk-5.6\vtkRendering.lib C:\Programme\VTK\lib\vtk-5.6\vtkGraphics.lib C:\Programme\VTK\lib\vtk-5.6\vtkImaging.lib C:\Programme\VTK\lib\vtk-5.6\vtkIO.lib C:\Programme\VTK\lib\vtk-5.6\vtkFiltering.lib C:\Programme\VTK\lib\vtk-5.6\vtklibxml2.lib C:\Programme\VTK\lib\vtk-5.6\vtkDICOMParser.lib C:\Programme\VTK\lib\vtk-5.6\vtkpng.lib C:\Programme\VTK\lib\vtk-5.6\vtkpng.lib C:\Programme\VTK\lib\vtk-5.6\vtktiff.lib C:\Programme\VTK\lib\vtk-5.6\vtkzlib.lib C:\Programme\VTK\lib\vtk-5.6\vtkjpeg.lib C:\Programme\VTK\lib\vtk-5.6\vtkalglib.lib C:\Programme\VTK\lib\vtk-5.6\vtkexpat.lib C:\Programme\VTK\lib\vtk-5.6\vtkverdict.lib C:\Programme\VTK\lib\vtk-5.6\vtkmetaio.lib C:\Programme\VTK\lib\vtk-5.6\vtkNetCDF.lib C:\Programme\VTK\lib\vtk-5.6\vtkexoIIc.lib C:\Programme\VTK\lib\vtk-5.6\vtkftgl.lib C:\Programme\VTK\lib\vtk-5.6\vtkfreetype.lib C:\Programme\VTK\lib\vtk-5.6\vtkHybrid.lib c:\Qt\4.7.0\lib\QtGuid4.lib c:\Qt\4.7.0\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="c:\Qt\4.7.0\lib,C:\Programme\VTK\lib\vtk-5.6"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="debug\vtk_Reader.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="release\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\Qt\4.7.0\include\QtCore&quot;,&quot;..\..\..\..\Qt\4.7.0\include\QtGui&quot;,&quot;..\..\..\..\Qt\4.7.0\include&quot;,&quot;.&quot;,&quot;..\..\..\..\Programme\VTK\include\vtk-5.6&quot;,&quot;..\..\..\..\Qt\4.7.0\include\ActiveQt&quot;,&quot;release&quot;,&quot;.&quot;,..\..\..\..\Qt\4.7.0\mkspecs\win32-msvc2008"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				AssemblerListingLocation="release\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="0"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="release\"
+				Optimization ="2"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="c:\Qt\4.7.0\lib\qtmain.lib C:\Programme\VTK\lib\vtk-5.6\vtkCommon.lib C:\Programme\VTK\lib\vtk-5.6\vtksys.lib C:\Programme\VTK\lib\vtk-5.6\QVTK.lib C:\Programme\VTK\lib\vtk-5.6\vtkQtChart.lib C:\Programme\VTK\lib\vtk-5.6\vtkViews.lib C:\Programme\VTK\lib\vtk-5.6\vtkWidgets.lib C:\Programme\VTK\lib\vtk-5.6\vtkInfovis.lib C:\Programme\VTK\lib\vtk-5.6\vtkRendering.lib C:\Programme\VTK\lib\vtk-5.6\vtkGraphics.lib C:\Programme\VTK\lib\vtk-5.6\vtkImaging.lib C:\Programme\VTK\lib\vtk-5.6\vtkIO.lib C:\Programme\VTK\lib\vtk-5.6\vtkFiltering.lib C:\Programme\VTK\lib\vtk-5.6\vtklibxml2.lib C:\Programme\VTK\lib\vtk-5.6\vtkDICOMParser.lib C:\Programme\VTK\lib\vtk-5.6\vtkpng.lib C:\Programme\VTK\lib\vtk-5.6\vtkpng.lib C:\Programme\VTK\lib\vtk-5.6\vtktiff.lib C:\Programme\VTK\lib\vtk-5.6\vtkzlib.lib C:\Programme\VTK\lib\vtk-5.6\vtkjpeg.lib C:\Programme\VTK\lib\vtk-5.6\vtkalglib.lib C:\Programme\VTK\lib\vtk-5.6\vtkexpat.lib C:\Programme\VTK\lib\vtk-5.6\vtkverdict.lib C:\Programme\VTK\lib\vtk-5.6\vtkmetaio.lib C:\Programme\VTK\lib\vtk-5.6\vtkNetCDF.lib C:\Programme\VTK\lib\vtk-5.6\vtkexoIIc.lib C:\Programme\VTK\lib\vtk-5.6\vtkftgl.lib C:\Programme\VTK\lib\vtk-5.6\vtkfreetype.lib C:\Programme\VTK\lib\vtk-5.6\vtkHybrid.lib c:\Qt\4.7.0\lib\QtGui4.lib c:\Qt\4.7.0\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="c:\Qt\4.7.0\lib,C:\Programme\VTK\lib\vtk-5.6"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="release\vtk_Reader.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="fm\fm_propagation\FM_propagationMesh.cpp" />
+			<File
+				RelativePath="fm\fm_propagation\FM_propagationVertex.cpp" />
+			<File
+				RelativePath="fm\fm_propagation\FM_propagationVolume.cpp" />
+			<File
+				RelativePath="fm\fm_core\FM_volume.cpp" />
+			<File
+				RelativePath="fm\fm_core\FM_volumeIterator.cpp" />
+			<File
+				RelativePath="fm\fm_core\FM_volumeMesh.cpp" />
+			<File
+				RelativePath="fm\fm_core\FM_volumeVertex.cpp" />
+			<File
+				RelativePath="fm\fm_core\FM_volumeVertexIterator.cpp" />
+			<File
+				RelativePath="gw\gw_core\GW_Config.cpp" />
+			<File
+				RelativePath="gw\gw_core\GW_Face.cpp" />
+			<File
+				RelativePath="gw\gw_core\GW_FaceIterator.cpp" />
+			<File
+				RelativePath="gw\gw_geodesic\GW_GeodesicFace.cpp" />
+			<File
+				RelativePath="gw\gw_geodesic\GW_GeodesicMesh.cpp" />
+			<File
+				RelativePath="gw\gw_geodesic\GW_GeodesicPoint.cpp" />
+			<File
+				RelativePath="gw\gw_geodesic\GW_GeodesicVertex.cpp" />
+			<File
+				RelativePath="gw\gw_core\GW_Mesh.cpp" />
+			<File
+				RelativePath="gw\gw_core\GW_SmartCounter.cpp" />
+			<File
+				RelativePath="gw\gw_geodesic\GW_TriangularInterpolation_Linear.cpp" />
+			<File
+				RelativePath="gw\gw_geodesic\GW_TriangularInterpolation_Quadratic.cpp" />
+			<File
+				RelativePath="gw\gw_core\GW_Vertex.cpp" />
+			<File
+				RelativePath="gw\gw_core\GW_VertexIterator.cpp" />
+			<File
+				RelativePath="main.cpp" />
+			<File
+				RelativePath="mainwindow.cpp" />
+			<File
+				RelativePath="mypropagation.cpp" />
+			<File
+				RelativePath="myvtkanimator.cpp" />
+			<File
+				RelativePath="myvtkinteractor.cpp" />
+			<File
+				RelativePath="myvtkreader.cpp" />
+			<File
+				RelativePath="fm\fm_core\stdafx.cpp" />
+			<File
+				RelativePath="fm\fm_propagation\stdafx.cpp" />
+			<File
+				RelativePath="gw\gw_core\stdafx.cpp" />
+			<File
+				RelativePath="gw\gw_geodesic\stdafx.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="fm\fm_core\FM_Config.h" />
+			<File
+				RelativePath="fm\fm_propagation\FM_propagationMesh.h" />
+			<File
+				RelativePath="fm\fm_propagation\FM_propagationVertex.h" />
+			<File
+				RelativePath="fm\fm_propagation\FM_propagationVolume.h" />
+			<File
+				RelativePath="fm\fm_core\FM_volume.h" />
+			<File
+				RelativePath="fm\fm_core\FM_volumeIterator.h" />
+			<File
+				RelativePath="fm\fm_core\FM_volumeMesh.h" />
+			<File
+				RelativePath="fm\fm_core\FM_volumeVertex.h" />
+			<File
+				RelativePath="fm\fm_core\FM_volumeVertexIterator.h" />
+			<File
+				RelativePath="gw\gw_core\GW_Config.h" />
+			<File
+				RelativePath="gw\gw_core\GW_Face.h" />
+			<File
+				RelativePath="gw\gw_core\GW_FaceIterator.h" />
+			<File
+				RelativePath="gw\gw_geodesic\GW_GeodesicFace.h" />
+			<File
+				RelativePath="gw\gw_geodesic\GW_GeodesicMesh.h" />
+			<File
+				RelativePath="gw\gw_geodesic\GW_GeodesicPoint.h" />
+			<File
+				RelativePath="gw\gw_geodesic\GW_GeodesicVertex.h" />
+			<File
+				RelativePath="gw\gw_maths\GW_Maths.h" />
+			<File
+				RelativePath="gw\gw_maths\GW_MathsConfig.h" />
+			<File
+				RelativePath="gw\gw_core\GW_MathsWrapper.h" />
+			<File
+				RelativePath="gw\gw_maths\GW_Matrix2x2.h" />
+			<File
+				RelativePath="gw\gw_maths\GW_Matrix3x3.h" />
+			<File
+				RelativePath="gw\gw_maths\GW_Matrix4x4.h" />
+			<File
+				RelativePath="gw\gw_maths\GW_MatrixNxP.h" />
+			<File
+				RelativePath="gw\gw_maths\GW_MatrixStatic.h" />
+			<File
+				RelativePath="gw\gw_core\GW_Mesh.h" />
+			<File
+				RelativePath="gw\gw_core\GW_PolygonIntersector.h" />
+			<File
+				RelativePath="gw\gw_core\GW_ProgressBar.h" />
+			<File
+				RelativePath="gw\gw_maths\GW_Quaternion.h" />
+			<File
+				RelativePath="gw\gw_core\GW_Serializable.h" />
+			<File
+				RelativePath="gw\gw_core\GW_SmartCounter.h" />
+			<File
+				RelativePath="gw\gw_maths\GW_SparseMatrix.h" />
+			<File
+				RelativePath="gw\gw_geodesic\GW_TriangularInterpolation_ABC.h" />
+			<File
+				RelativePath="gw\gw_geodesic\GW_TriangularInterpolation_Linear.h" />
+			<File
+				RelativePath="gw\gw_geodesic\GW_TriangularInterpolation_Quadratic.h" />
+			<File
+				RelativePath="gw\gw_maths\GW_Vector2D.h" />
+			<File
+				RelativePath="gw\gw_maths\GW_Vector3D.h" />
+			<File
+				RelativePath="gw\gw_maths\GW_Vector4D.h" />
+			<File
+				RelativePath="gw\gw_maths\GW_VectorND.h" />
+			<File
+				RelativePath="gw\gw_maths\GW_VectorStatic.h" />
+			<File
+				RelativePath="gw\gw_core\GW_Vertex.h" />
+			<File
+				RelativePath="gw\gw_core\GW_VertexIterator.h" />
+			<File
+				RelativePath="config.h" />
+			<File
+				RelativePath="gw\gw_maths\gw_complex.h" />
+			<File
+				RelativePath="mainwindow.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Qt\4.7.0\bin\moc.exe;mainwindow.h"
+						CommandLine="C:\Qt\4.7.0\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\Qt\4.7.0\include\QtCore&quot; -I&quot;..\..\..\..\Qt\4.7.0\include\QtGui&quot; -I&quot;..\..\..\..\Qt\4.7.0\include&quot; -I&quot;.&quot; -I&quot;..\..\..\..\Programme\VTK\include\vtk-5.6&quot; -I&quot;..\..\..\..\Qt\4.7.0\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -I..\..\..\..\Qt\4.7.0\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 mainwindow.h -o debug\moc_mainwindow.cpp"
+						Description="MOC mainwindow.h"
+						Outputs="debug\moc_mainwindow.cpp"
+						Path="c:\Qt\4.7.0\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Qt\4.7.0\bin\moc.exe;mainwindow.h"
+						CommandLine="C:\Qt\4.7.0\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\Qt\4.7.0\include\QtCore&quot; -I&quot;..\..\..\..\Qt\4.7.0\include\QtGui&quot; -I&quot;..\..\..\..\Qt\4.7.0\include&quot; -I&quot;.&quot; -I&quot;..\..\..\..\Programme\VTK\include\vtk-5.6&quot; -I&quot;..\..\..\..\Qt\4.7.0\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -I..\..\..\..\Qt\4.7.0\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 mainwindow.h -o release\moc_mainwindow.cpp"
+						Description="MOC mainwindow.h"
+						Outputs="release\moc_mainwindow.cpp"
+						Path="c:\Qt\4.7.0\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="mypropagation.h" />
+			<File
+				RelativePath="myvtkanimator.h" />
+			<File
+				RelativePath="myvtkinteractor.h" />
+			<File
+				RelativePath="myvtkreader.h" />
+			<File
+				RelativePath="fm\fm_core\stdafx.h" />
+			<File
+				RelativePath="fm\fm_propagation\stdafx.h" />
+			<File
+				RelativePath="gw\gw_core\stdafx.h" />
+			<File
+				RelativePath="gw\gw_geodesic\stdafx.h" />
+			<File
+				RelativePath="ui_mainwindow.h" />
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="debug\moc_mainwindow.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_mainwindow.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="ui_mainwindow.h" />
+		</Filter>
+		<Filter
+			Name="Form Files"
+			Filter="ui"
+			UniqueIdentifier="{99349809-55BA-4b9d-BF79-8FDBB0286EB3}"
+			ParseFiles="false">
+			<File
+				RelativePath="mainwindow.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Qt\4.7.0\bin\uic.exe;QVTKWidget.h;mainwindow.ui"
+						CommandLine="C:\Qt\4.7.0\bin\uic.exe mainwindow.ui -o ui_mainwindow.h"
+						Description="UIC mainwindow.ui"
+						Outputs="ui_mainwindow.h"
+						Path="c:\Qt\4.7.0\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="C:\Qt\4.7.0\bin\uic.exe;QVTKWidget.h;mainwindow.ui"
+						CommandLine="C:\Qt\4.7.0\bin\uic.exe mainwindow.ui -o ui_mainwindow.h"
+						Description="UIC mainwindow.ui"
+						Outputs="ui_mainwindow.h"
+						Path="c:\Qt\4.7.0\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
